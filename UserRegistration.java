@@ -80,5 +80,5 @@ public class UserRegistration {
 			System.out.println("'" + input + "'\tVALID");
 		else
 			System.out.println("'" + input + "'\tINVALID");
-	}
+	}	
 }

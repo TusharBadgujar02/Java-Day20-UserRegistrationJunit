@@ -3,7 +3,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 class Junit{
-	
 	@Test
 	public void testWhenFirstName_isProper_returnTrue() {
 		UserRegistration validate = new UserRegistration();
@@ -72,4 +71,5 @@ class Junit{
 		UserRegistration validate = new UserRegistration();
 		boolean result = validate.validatePassword("passwordjsnfksjf");
 		Assert.assertFalse(result);
-	}}
+	}	
+}
